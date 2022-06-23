@@ -1,0 +1,32 @@
+.has-sans-body .home--hero-container{
+    font-family: var(--font-sans-serif);
+}
+.home--hero-container {
+    margin: 6rem auto 1rem auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.home--title-container {
+    flex: 0.75;
+    padding-right: 2rem;
+}
+.home--title-container h1{
+    font-weight: 300;
+}
+
+.home--hero-container p {
+    font-size: 17px;
+    text-align: center;
+}
+
+.home--main-image-container {
+    flex: 0.5;
+}
+
+@media  screen and (max-width: 650px){
+    .home--hero-container{
+        flex-direction: column;
+    }
+}
