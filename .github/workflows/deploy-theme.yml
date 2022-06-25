@@ -16,7 +16,6 @@ jobs:
           exclude: [
               DockerFile,
               docker-compose.yml,
-              gulpfile.js,
-              *.jpg
+              gulpfile.js
           ]
 
