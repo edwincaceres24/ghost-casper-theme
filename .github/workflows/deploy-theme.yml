@@ -13,9 +13,6 @@ jobs:
         with:
           api-url: ${{ secrets.GHOST_ADMIN_API_URL }}
           api-key: ${{ secrets.GHOST_ADMIN_API_KEY }}
-          exclude: [
-              DockerFile,
-              docker-compose.yml,
-              gulpfile.js
-          ]
+          exclude: "DockerFile docker-compose.yml gulpfile.js *.jpg"
+          
 
